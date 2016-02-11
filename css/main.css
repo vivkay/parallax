@@ -11,7 +11,14 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   overflow: hidden;
-  font-family: $work-sans;
+  font-family: normal 100%/1.5 Helvetica;
+  overflow-x: auto;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  margin: 0;
 }
 
 *, *:before, *:after {
@@ -23,6 +30,41 @@ html {
     background: transparent;
 }
 
-.parallax-container {
+.header {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  position: absolute;
   width: 100%;
+  margin: 0, auto;
+  top: 25%
+}
+
+.banner {
+  position: relative;
+  font-size: 1.5rem;
+  max-height: 75vh;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 5em;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+  text-align: center;
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner-content h1
+.banner-content p {
+  margin: 0;
 }

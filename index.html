@@ -2,25 +2,49 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>FFI</title>
+  <title>Parallax Test</title>
   <link href="https://file.myfontastic.com/QkfGZK4opeRm48WYMxh6JU/icons.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,500' rel='stylesheet' type='text/css'>
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="js/parallax.min.js" rel="stylesheet">
 </head>
 <body>
-<body class="noscript">
-      <header class="header">
+<body>
+  <header>
 
-      <div class="parallax-window parallax-container" data-parallax="scroll" data-image-src="home-banner.jpg"></div>
+    <div class="banner" data-stellar-background-ratio="0.5">
+      <img src="img/billboard.jpg" alt="">
+      <div class="banner-content">
+        <h1> This is a Parallax Test </h1>
+        <p> Testy testy test-a-roo</p>
+      </div>
+    </div>
 
-</header>
+<!--
+      <div class="parallax-window parallax-container" data-parallax="scroll" data-image-src="img/billboard.jpg"></div>
+      -->
+  </header>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="/path/to/parallax.js"></script>
+<main>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non consectetur lectus, eget eleifend sapien. Integer odio turpis, imperdiet venenatis lobortis sed, tristique at neque. Morbi vel pulvinar mauris. Quisque mollis, erat vitae interdum vulputate, tortor nisl commodo dui, sed ultrices risus ante ut purus. Nullam vitae dolor vitae lacus pretium commodo sed nec sapien. Pellentesque nulla nibh, eleifend quis elit et, laoreet lobortis odio. Fusce a massa quis enim congue volutpat. Vestibulum varius efficitur ligula, non faucibus ante vulputate eget. Vivamus bibendum augue nec condimentum tempor. Vivamus pellentesque at massa nec placerat. Mauris eget mattis eros, vitae feugiat urna. Sed lectus est, facilisis sed rhoncus id, malesuada vitae est. Cras porta ex ante, ut semper sapien fermentum vitae. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi neque libero, viverra varius sagittis eu, volutpat in odio.
 
+Nunc dui risus, eleifend nec posuere nec, tristique sed dui. Donec vulputate eros ante, in venenatis elit semper sit amet. Nulla efficitur finibus feugiat. Quisque vitae tellus ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam efficitur urna quis magna viverra posuere. Nulla volutpat ante quis magna gravida maximus. Maecenas congue ullamcorper tempus. Proin sem arcu, mollis eget auctor eu, pharetra vitae velit. Nulla sollicitudin dapibus pellentesque. Donec cursus, nibh ac iaculis viverra, nibh ligula imperdiet quam, id egestas tortor nibh at sem. Maecenas quis luctus magna.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non consectetur lectus, eget eleifend sapien. Integer odio turpis, imperdiet venenatis lobortis sed, tristique at neque. Morbi vel pulvinar mauris. Quisque mollis, erat vitae interdum vulputate, tortor nisl commodo dui, sed ultrices risus ante ut purus. Nullam vitae dolor vitae lacus pretium commodo sed nec sapien. Pellentesque nulla nibh, eleifend quis elit et, laoreet lobortis odio. Fusce a massa quis enim congue volutpat. Vestibulum varius efficitur ligula, non faucibus ante vulputate eget. Vivamus bibendum augue nec condimentum tempor. Vivamus pellentesque at massa nec placerat. Mauris eget mattis eros, vitae feugiat urna. Sed lectus est, facilisis sed rhoncus id, malesuada vitae est. Cras porta ex ante, ut semper sapien fermentum vitae. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi neque libero, viverra varius sagittis eu, volutpat in odio.
+
+Nunc dui risus, eleifend nec posuere nec, tristique sed dui. Donec vulputate eros ante, in venenatis elit semper sit amet. Nulla efficitur finibus feugiat. Quisque vitae tellus ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam efficitur urna quis magna viverra posuere. Nulla volutpat ante quis magna gravida maximus. Maecenas congue ullamcorper tempus. Proin sem arcu, mollis eget auctor eu, pharetra vitae velit. Nulla sollicitudin dapibus pellentesque. Donec cursus, nibh ac iaculis viverra, nibh ligula imperdiet quam, id egestas tortor nibh at sem. Maecenas quis luctus magna.
+  </p>
+</main>
+
+  <script src="jquery-2.0.2.js"></script>
+  <script src="jquery.stellar.min.js"></script>
+
+  <script>
+    $.stellar();
+  </script>
 
 </body>
 </html>
